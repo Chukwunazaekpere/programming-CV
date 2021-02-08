@@ -1,6 +1,6 @@
-import CoverPage from "./Compoents/pages/CoverPage";
+import CoverPage from "./Components/pages/CoverPage";
 import { Route, Switch } from "react-router-dom";
-import CVPage from "./Compoents/pages/CVPage";
+import CVPage from "./Components/pages/CVPage";
 
 
 function App() {

@@ -60,3 +60,11 @@
     color: #171717;
     text-align: center;
 }
+
+.exp__btn:hover{
+    text-decoration: none;
+    color: #f4f4f4;
+
+    transform: scale(1.5);
+    transition: all .5s ease-out;
+}
