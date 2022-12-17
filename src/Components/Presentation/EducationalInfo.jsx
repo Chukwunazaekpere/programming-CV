@@ -3,7 +3,7 @@ import React from 'react';
 const EducationalInfo = (props) => {
     return (
         <section className="education">
-            <h3 className="info__title">Educational - Info:</h3>
+            <h3 style={{fontWeight: "bold"}} className="info__title px-2 text-danger">Educational - Info:</h3>
             <ul>
                 <li>
                     <h4>First degree:</h4>

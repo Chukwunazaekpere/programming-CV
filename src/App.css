@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita:light,bold,italic&subset=latin,latin-ext');
+
 .App {
   text-align: center;
+  font-family: Sansita, serif;
 }
 
 .App-logo {

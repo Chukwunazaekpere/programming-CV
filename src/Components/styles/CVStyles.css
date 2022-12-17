@@ -26,10 +26,10 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,.75)), url("../image/Chukwunazaekpere.jpg");
     }
     50%{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,.75)), url("../image//passport.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,.75)), url("../image/JS_code.png");
     }
     100%{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,.75)), url("../image/WIN_20201102_10_32_05_Pro.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,.75)), url("../image/factory_code.png");
     }
 }
 
