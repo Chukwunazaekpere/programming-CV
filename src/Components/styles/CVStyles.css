@@ -10,7 +10,7 @@
     background-size: cover;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     flex-direction: column;
@@ -19,6 +19,7 @@
     color: aliceblue;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Sansita, serif;
 }
 
 @keyframes bkg{
@@ -39,7 +40,7 @@
     align-items: center;
     width: 70%;
     height: 70vh;
-    margin-top: 2rem;
+    margin-top: 4.7rem;
 }
 
 .nav__btn{
@@ -47,7 +48,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.5rem;
+    /* margin-top: 3rem; */
 }
 
 .left__btn,

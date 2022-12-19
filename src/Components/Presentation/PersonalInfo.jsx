@@ -12,7 +12,7 @@ function PersonalInfo(props) {
     }
     return (
         <div className="personal__info">
-            <h2 className="info__title">Personal - Info:</h2>
+            <h2 className="text-center">Personal - Info:</h2>
             {
                 Object.keys(contacts).map((contact, index) => (
                     <span className="d-flex align-items-center py-2" key={contact}>

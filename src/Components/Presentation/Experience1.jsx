@@ -1,17 +1,18 @@
-// import "../styles/Experiences.css";
+// import "../styles/Experience1.css";
 import { Link } from "react-router-dom"
 import { titleCase } from "../../utils/helper"
 
 
-function Experiences(props) {
+function Experience1(props) {
     return (
         <div className="personal__info">
-            <h2 style={{fontWeight: "bold"}} className="info__title py-2 text text-danger">Projects in Production:</h2>
+            <h2 style={{fontWeight: "bold"}} className="info__title py-2 text text-danger">Projects in Production (1):</h2>
             <span>
                 <h3>HotelPro:</h3>
                 <p style={{fontWeight:"bold", fontSize: "25px"}}>
                     HotelPro is a PMS (property management system) in production, being used by <br />
                     nine hotels (as at December 15th 2022). <br /> I programmed this system for ChannelPro as a fullstack developer, with the MERN stack: <br />
+                    <hr />
                     <li>
                         <b>MongoDB</b> <br />
                     </li>
@@ -24,6 +25,7 @@ function Experiences(props) {
                     <li>
                         <b>NodeJS (Typescript)</b>, <br />
                     </li>
+                    <hr />
                     <b>Redux was as we used at the frontend for state management.</b>,
                     This system is where I gathered most of my experience as a backend and frontend developer  
                     and also getting acquainted to server optimisation and operations. It's an ERP app designed to manage
@@ -32,20 +34,13 @@ function Experiences(props) {
                 </p>
                 <p>
                     I'll provide you a demo link to the HotelPro demo web-app <br />
-                    <Link to={"http://hotelpro-demo.netlify.app/"}></Link>
-                    username: ChannelPro
-                    password: ChannelPro@2020
-                </p>
-            </span>
-            <span>
-                <h3>TurboErrands</h3>
-                <p style={{fontWeight:"bold", fontSize: "25px"}}>
-                    TurboErrands is an admin application for a logistics company built with 
-                    Django (Python's web-framework)
+                    <a href="http://hotelpro-demo.netlify.app/">HotelPro Demo</a> <br />
+                    {/* username: ChannelPro <br />
+                    password: ChannelPro@2020 */}
                 </p>
             </span>
         </div>
     );
 }
 
-export default Experiences;
+export default Experience1;
